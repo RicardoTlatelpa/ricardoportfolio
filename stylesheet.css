@@ -4,9 +4,7 @@ html {
   font-weight: normal;
   font-family: 'Roboto', sans-serif;
   margin: 0px;
-  padding: 0;
-  
-  
+  padding: 0;  
 }
 
 .home{
@@ -141,24 +139,31 @@ section{
     width: 60%;
 }
 .projects{
-    background-color: #B0C6D9;
+    background-image: url('./assets/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
+    background-size: cover;
     color:#FCFFF5;
     text-align: center;
+    background-repeat: no-repeat;
 }
 .projects ul {
     padding-top: 50px;
     
 }
-.projects ul li{
-    display: inline-block;
+.projects ul {
+    display: inline-flex;
     list-style: none;
-    margin-right: 100px;
-    color: black
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 .projects ul img{
     width: 50px;
     height: 50px;
-    text-align:center;
+    margin-right: 70px;
+}
+.projects-content{
+    width: 80%;
 }
 .services{
     background-color: #143045;
@@ -169,3 +174,21 @@ section{
     font-size: 15px;
     color: #91AAB4;
 }
+#react-image{
+    height: 100px;
+    width: 110px;
+}
+#node-image{
+    width: 140px;
+    height: 130px;
+    margin:0;
+}
+
+#express-image{
+    width: 120px;
+}
+#mongo-image{
+    width: 160px;
+    height: 150px;
+}
+/* todo: rotate images to make it look more natural */
