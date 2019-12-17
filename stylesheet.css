@@ -129,19 +129,36 @@ section{
     justify-content: center;
     font-size: 18px;
     font-weight: 700;
+    flex-wrap: wrap;
 }
 .aboutMe{
-    background-color: #2A6591;
-    opacity: 0.5;
-    color: #FCFFF5;
+    background-color: #FCFFF5;
+    
+    color: black;
     
 }
-
+.aboutMe-content{
+    width: 60%;
+}
 .projects{
-    background-color: #99A6B0;
-    opacity: 1;
+    background-color: #B0C6D9;
     color:#FCFFF5;
+    text-align: center;
+}
+.projects ul {
+    padding-top: 50px;
     
+}
+.projects ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 100px;
+    color: black
+}
+.projects ul img{
+    width: 50px;
+    height: 50px;
+    text-align:center;
 }
 .services{
     background-color: #143045;
