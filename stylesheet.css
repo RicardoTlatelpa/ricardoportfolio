@@ -62,6 +62,16 @@ header ul li:active{
     color: #91AAB4;
     
 }
+.sub-header-project{
+    padding:0;
+    display: inline-block;
+    font-size: 25px;
+    color: #91AAB4;
+    
+}
+.sub-header-project:hover{
+    color: black;
+}
 
 
 footer{
