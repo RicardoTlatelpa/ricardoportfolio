@@ -1,5 +1,5 @@
 
-//header animation
+
 gsap.from("#header-test", 
 {
     opacity: 0, 
@@ -8,7 +8,8 @@ gsap.from("#header-test",
     ease: Power4.easeInOut 
 });
 
-//panel switching gsap
+
+//panel switching scrollMagic and GSAP
 
 var controller = new ScrollMagic.Controller();
 var tl = new TimelineMax();
