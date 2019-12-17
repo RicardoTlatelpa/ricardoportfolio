@@ -39,16 +39,11 @@ tl.fromTo(
 var scene = new ScrollMagic.Scene({
     triggerElement: "#pinMaster",
     triggerHook: "onLeave",
-    duration: "300%"
+    duration: "350%"
 })
     .setPin("#pinMaster")
     .setTween(tl)
-    .addIndicators({
-        colorTrigger:"white",
-        colorStart: "white",
-        colorEnd: "white",
-        indent: 40
-    })
+    
     .addTo(controller);
 
 scene.removeIndicators();

@@ -16,6 +16,7 @@ html {
 .page-container{
     position: relative;
     min-height: 100vh;   
+    
 }
 
 header{
@@ -83,10 +84,6 @@ footer h3{
 }
 .content h1{
     font-size: 6em;
-    
-    
-    /* border: 1px solid black;
-    border-radius: 50%; */
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -167,6 +164,7 @@ section{
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    font-family:'TheAbsoluteRegular';
 }
 .services{
     background-color: #143045;
@@ -197,7 +195,7 @@ section{
     height: 150px;
     transform: rotate(25deg);
 }
-/* todo: rotate images to make it look more natural */
+
 
 #linkedinLogo{
     margin-left: 25px;
