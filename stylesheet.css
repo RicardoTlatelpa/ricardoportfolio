@@ -198,3 +198,7 @@ section{
     transform: rotate(25deg);
 }
 /* todo: rotate images to make it look more natural */
+
+#linkedinLogo{
+    margin-left: 25px;
+}

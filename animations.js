@@ -7,7 +7,13 @@ gsap.from("#header-test",
     y: -50, 
     ease: Power4.easeInOut 
 });
-
+gsap.from("#footer-message",
+{
+    opacity:0,
+    duration:2,
+    y: -50,
+    ease: Power3.easeInOut
+})
 
 //panel switching scrollMagic and GSAP
 
@@ -33,7 +39,7 @@ tl.fromTo(
 var scene = new ScrollMagic.Scene({
     triggerElement: "#pinMaster",
     triggerHook: "onLeave",
-    duration: "400%"
+    duration: "300%"
 })
     .setPin("#pinMaster")
     .setTween(tl)
