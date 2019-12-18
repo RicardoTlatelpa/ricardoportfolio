@@ -64,6 +64,7 @@ header ul li:active{
 }
 footer{
     height: 2.5em;   
+    
 }
 footer h3{
     float: left;
@@ -71,6 +72,7 @@ footer h3{
     height: 100%;
     bottom: 0;
 }
+
 .content h1{
     font-size: 6em;
     margin-left: 20%;
@@ -107,6 +109,9 @@ section{
 .projects-content div{
     justify-self: center;
 }
+.project-overview{
+    width: 50%;
+}
 
 .services{
     background-color: #143045;
@@ -118,14 +123,16 @@ section{
 }
 
 .footer-content a{
-    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .project-calculator img{
-    width: 360px;
-    height: 420px;
+    width: 250px;
+    height: 250px;
 }
 .todo-project img{
     width: 450px;
     height: 315px;
 }
+
