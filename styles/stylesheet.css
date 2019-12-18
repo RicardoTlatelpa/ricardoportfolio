@@ -5,11 +5,10 @@ html {
   font-family: 'Frank Ruhl Libre', serif;
   margin: 0px;
   padding: 0;  
+  background-color: #FCFFF5;
 }
-
 .home{
     background-color: #FCFFF5;
-    
     height: auto;
 }
 
@@ -18,7 +17,6 @@ html {
     min-height: 100vh;   
     
 }
-
 header{
     position: absolute;
     width: 100%;
@@ -38,7 +36,7 @@ header ul li{
     display: inline-block;
     font-size: 18px;
     color: #3E606F;
-    /* margin-left: 10px; */
+    margin-right: 10px;
 }
 a{
     text-decoration: none;
@@ -47,10 +45,7 @@ a{
 header ul li:active{
     border-bottom: 3px solid #CBDBD7;
 }
-
-
 .content{
-    
     display: block;
     width: 100%;
     text-align:center;
@@ -59,38 +54,22 @@ header ul li:active{
     padding:0;
     display: inline-block;
     font-size: 25px;
-    color: #91AAB4;
-    
+    color: #91AAB4; 
 }
 .sub-header-project{
     padding:0;
     display: inline-block;
     font-size: 25px;
-    color: #91AAB4;
-    
+    color: #91AAB4; 
 }
-.sub-header-project:hover{
-    color: black;
-}
-
-
 footer{
-    /* position: absolute;
-    bottom: 0;
-    width: 100%; */
-    height: 2.5em;
-    
+    height: 2.5em;   
 }
-
 footer h3{
     float: left;
     width: 100%;
     height: 100%;
     bottom: 0;
-}
-
-#lastListItem{
-    margin-right: 10px;
 }
 .content h1{
     font-size: 6em;
@@ -102,32 +81,6 @@ footer h3{
     color: #91AAB4;
     font-weight: normal;
 }
-
-.narrow-footer{
-    display: inline-block;
-    padding: 20px;
-    width: 100%;
-    background-color: #FCFFF5;
-}
-
-
-.panel{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-#pinContainer{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-}
-
-#pinMaster{
-    position: relative;
-}
-
 section{
     display: flex;
     align-items: center;
@@ -136,69 +89,43 @@ section{
     font-weight: 700;
     
 }
-.aboutMe{
+.projects{
     background-color: #FCFFF5;
     font-size: 25px;
     color: black;
-    word-spacing: 5px;
+    height: auto;
+    padding-bottom: 50px;
 }
-.aboutMe-content{
-    width: 60%;
-}
-
-.projects{
-    /* background-image: url('./assets/joanna-kosinska-1_CMoFsPfso-unsplash.jpg'); */
-    /* background-size: cover; */
-    background-color:#FCFFF5;
-    /* background-repeat: no-repeat; */
-    color:#8A9D48;
-}
-.projects ul li{
-    display: inline-block;
-    margin-right: 80px;
+.projects-content{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(2,1fr);
     
 }
 
-
-
-
-.projects-content h1{
-    text-align: center;
-}
-.projects-content h2{
-    text-align: center;
+.projects-content div{
+    justify-self: center;
 }
 
 .services{
     background-color: #143045;
-    color:#FCFFF5;
-    
+    color:#FCFFF5;   
 }
 .scrollingMes{
     font-size: 15px;
     color: #91AAB4;
 }
-#react-image{
-    height: 100px;
-    width: 110px;
-}
-#node-image{
-    width: 140px;
-    height: 130px;
+
+.footer-content a{
+    padding: 15px;
 }
 
-#express-image{
-    width: 120px;
-    margin-bottom: 25px;
+.project-calculator img{
+    width: 360px;
+    height: 420px;
 }
-#mongo-image{
-    width: 160px;
-    height: 150px;
- 
+.todo-project img{
+    width: 400px;
+    height: 300px;
 }
-
-
-#linkedinLogo{
-    margin-left: 25px;
-}
-

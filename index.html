@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ricardo Tlatelpa</title>
    
-    <link rel="stylesheet" type="text/css" href = 'stylesheet.css'/>
+    <link rel="stylesheet" type="text/css" href = './styles/stylesheet.css'/>
     
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
     
@@ -19,7 +19,7 @@
     <header>
         <a href = '/'><h2>Ricardo Tlatelpa</h2></a>
         <ul>
-            <li><a href= '#'>About Me</a></li>
+            <li><a href= 'aboutMe.html'>About Me</a></li>
             <li><a href= '#'>Blogs</a></li>
             <li id = "lastListItem"><a href= '#'>Hire me</a></li>
 
@@ -34,69 +34,58 @@
             <br>            
          <span class = 'sub-header'> Actively seeking employment </span>
          <br>
-         <a href = "#"><span class = "sub-header-project">PROJECTS</span></a>
+         <span class = 'sub-header-project'>Projects <i class="fas fa-arrow-down"></i></span>
         </h1>    
-        <span style = 'display: inline' class = "scrollingMes">Or <br>Keep scrolling</span>         
+       
     </div>
         </div>
     </div>
     </section>
-    <div id = "pinMaster">
-            <div id = "pinContainer">   
-            <section class = "panel aboutMe">
-                    <div class = "aboutMe-content">
-                        <h1>About me </h1>
-                        <span>
-                        I was in a 4 year Software engineering Pilot program in High school where I was exposed to all sorts of powerful technologies: HTML,CSS, Javascript, Ruby, Arduino, Scratch, etc.
-                    </span>
-                    
-                    <a href = "https://github.com/ricardojrt6565"><p>Click here for my SEP Github</p></a>
-                    <a href = "https://hstatsep.github.io/"><p>Link to my 4 year SEP program</p></a>
+    
+            
+            <section class = "projects">
+                    <div class = "projects-content">
+                        <div>
+                          <h3>Social Media app</h3>      
+                        </div>
+                        
+                            <div><p>Full stack social media application using the MERN stack.</p></div>
+                        <div class = "todo-project">
+                            <h3>Node-todo App</h3>
+                            
+                        </div>
+                        
+                            <div><p>My first fullstack application built with Reactjs, Nodejs, Expressjs, and MongoDB. Uses GoogleOauth flow for user authentication login/logout.</p></div>
+                        <div class = "project-calculator">
+                                <h3>React calculator</h3> 
+                            <a href = 'https://ricardotlatelpa.github.io/finallyacalculator/'><img src = "./assets/reactCalculator.png"/></a>    
+                        </div>
+                        
+                            <div><p>Fully functional Calculator built with Reactjs, Javascript, HTML, CSS</p></div>
                     </div>
             </section>
-            <section class = "panel projects">
-                <div class = "projects-content">
-                    <h1>Today with my mastery of Javascript</h1>
-                    <ul>
-                        <li><img id = "mongo-image"src = "./assets/mongoDbSticker.png" alt = "mongodb"/></li>
-                        <li><img id = "express-image"src = "./assets/express-routing-logo.png" alt = "expressjs"/></li>
-                        <li><img id = "react-image" src = "./assets/reactjsSticker.png" alt = "reactjs"/></li>
-                        <li><img id = "node-image" src = "./assets//nodejsSticker.png" alt = "nodejs"/></li>
-                        
-                        
-
-                    </ul>
-                    <h2>I've become familiar with the MERN Stack</h2>
-                    
-                    
-
-                </div>
-            </section>
-            <section class = "panel services">
-                <div>
-                    <h1 id = "footer-message">Projects </h1>
-
-                </div>
-                    
-            </section>
-        </div>
+          
         
-          <footer class = "non-footer">
-                <div class = 'narrow-footer'>
+        
+          <footer >
+                <div class = "footer-content">
                 <a href ='https://github.com/RicardoTlatelpa'><i class="fab fa-github fa-3x" style = 'color: #91AAB4'></i></a>  
                 <a href = 'www.linkedin.com/in/ricardo-tlatelpa-971b2a179'><i id = "linkedinLogo"class="fab fa-linkedin-in fa-3x" style = 'color: #0072b1 '></i></a>
-            </div>
+                </div>
     </footer>
-</div>
+
 
 <script src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
 <script src="https://kit.fontawesome.com/85e783b52c.js" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 <script src = "animations.js"></script>
 
 </body>
 </html>
+
+<!-- 
+    About me content
+    <h1>About me</h1>                        
+        I was in a 4 year Software engineering Pilot program in High school where I was exposed to all sorts of powerful technologies: HTML,CSS, Javascript, Ruby, Arduino, Scratch, etc.
+    
+    <a href = "https://github.com/ricardojrt6565"><p>Click here for my SEP Github</p></a>
+    <a href = "https://hstatsep.github.io/"><p>Link to my 4 year SEP program</p></a> -->
