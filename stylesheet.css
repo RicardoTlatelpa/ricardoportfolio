@@ -2,14 +2,14 @@ body,
 html {
   height: 100%;
   font-weight: normal;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Frank Ruhl Libre', serif;
   margin: 0px;
   padding: 0;  
 }
 
 .home{
     background-color: #FCFFF5;
-    font-family: 'Lora', serif;
+    
     height: auto;
 }
 
@@ -38,7 +38,7 @@ header ul li{
     display: inline-block;
     font-size: 18px;
     color: #3E606F;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 a{
     text-decoration: none;
@@ -134,48 +134,41 @@ section{
     justify-content: center;
     font-size: 18px;
     font-weight: 700;
-    flex-wrap: wrap;
+    
 }
 .aboutMe{
     background-color: #FCFFF5;
-    
+    font-size: 25px;
     color: black;
-    
+    word-spacing: 5px;
 }
 .aboutMe-content{
     width: 60%;
 }
+
 .projects{
-    background-image: url('./assets/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
-    background-size: cover;
-    color:#FCFFF5;
-    text-align: center;
-    background-repeat: no-repeat;
+    /* background-image: url('./assets/joanna-kosinska-1_CMoFsPfso-unsplash.jpg'); */
+    /* background-size: cover; */
+    background-color:#FCFFF5;
+    /* background-repeat: no-repeat; */
+    color:#8A9D48;
 }
-.projects ul {
-    padding-top: 50px;
+.projects ul li{
+    display: inline-block;
+    margin-right: 80px;
     
 }
-.projects ul {
-    display: inline-flex;
-    list-style: none;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 
+
+
+
+.projects-content h1{
+    text-align: center;
+}
+.projects-content h2{
+    text-align: center;
 }
 
-.projects ul img{
-    width: 50px;
-    height: 50px;
-    margin-right: 40px;
-}
-.projects-content{
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family:'TheAbsoluteRegular';
-}
 .services{
     background-color: #143045;
     color:#FCFFF5;
@@ -192,21 +185,20 @@ section{
 #node-image{
     width: 140px;
     height: 130px;
-    margin:0;
-    transform: rotate(-5deg);
 }
 
 #express-image{
     width: 120px;
-    margin: 0;
+    margin-bottom: 25px;
 }
 #mongo-image{
     width: 160px;
     height: 150px;
-    transform: rotate(25deg);
+ 
 }
 
 
 #linkedinLogo{
     margin-left: 25px;
 }
+
