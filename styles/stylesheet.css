@@ -136,3 +136,6 @@ section{
     height: 315px;
 }
 
+.header-center h3{
+    text-align: center;
+}
