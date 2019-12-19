@@ -30,27 +30,32 @@ header ul li{
     color: #3E606F;
     margin-right: 10px;
 }
-a{
+header a{
     text-decoration: none;
     color:inherit;
 }
 header ul li:active{
     border-bottom: 3px solid #CBDBD7;
 }
-
-.content{
-    display: flex;
-    flex-direction: column;
+.center-please{
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    
+}
+#new-main{
+    display: flex;
+    width: 100vh;
+    align-items: center;
+    justify-content: center;
     height: 100%;
-    width: 100%;
-    
+    font-size: 30px;
+    flex-wrap: wrap;
 }
 
-#main-title{
-    font-size: 6rem;
-}
+
+
+
 .sub-header{
     padding:0;
     display: inline-block;
@@ -65,33 +70,17 @@ header ul li:active{
     color: #91AAB4; 
 
 }
-footer{
-    height: 2.5em;   
-    
-}
-footer h3{
-    float: left;
-    width: 100%;
-    height: 100%;
-    bottom: 0;
-}
 
-
-section{
-    display: block;
-}
 .projects{
-    background-color: #FCFFF5;
-    font-size: 25px;
-    color: black;
-    height: auto;
+    
+    font-size: 20px;
     padding-bottom: 50px;
 }
 .projects-content{
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: repeat(2, minmax(autofit, 1fr));
+    grid-template-columns: repeat(2, minmax(1fr, 1fr));
     grid-gap: 1rem;
 }
 
@@ -100,20 +89,12 @@ section{
 }
 .project-overview{
     width: 50%;
+    text-align: center;
 }
 
-.services{
-    background-color: #143045;
-    color:#FCFFF5;   
-}
-.scrollingMes{
-    font-size: 15px;
-    color: #91AAB4;
-}
 
 .footer-content a{
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
 }
 
 .project-calculator img{
@@ -129,8 +110,24 @@ section{
     text-align: center;
 }
 
+
+footer{
+    height: 2.5em;   
+    
+}
+footer h3{
+    float: left;
+    width: 100%;
+    height: 100%;
+    
+}
 @media(max-width: 600px){
+    
     .header-menu{
         visibility: hidden;
+    }
+    .projects{
+        width: 100vh;
+        
     }
 }
