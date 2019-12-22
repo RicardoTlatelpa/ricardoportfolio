@@ -1,133 +1,107 @@
-body,
-html {
-  height: 100%;
-  font-weight: normal;
-  font-family: 'Frank Ruhl Libre', serif;
-  margin: 0px;
-  padding: 0;  
-  background-color: #FCFFF5;
-}
-
-header{
-    position: block;
-    width: 100%;
-    height: 5%;
-    top: 0;
+html{
     
 }
-
-header h2 {
-    float: left;
-    color: #3E606F;
-    font-size: 20px;
+body{
+    margin: 0;
+    padding:0;
+    
 }
+header{
+    height: 100%;
+}
+header a{
+    float: left;
+    text-decoration: none;
+    margin-left: 20px;
+    color:#697A9C;
+}
+
 header ul{
     float: right;
 }
+header::after{
+content: '';
+clear:both;
+display:table;
+
+}
 header ul li{
-    display: inline-block;
-    font-size: 18px;
-    color: #3E606F;
-    margin-right: 10px;
+    display:inline-block;
+    margin-right: 20px;
 }
-header a{
-    text-decoration: none;
-    color:inherit;
-}
-header ul li:active{
-    border-bottom: 3px solid #CBDBD7;
-}
-.center-please{
-    width: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
+
 #new-main{
-    display: flex;
-    width: 100vh;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    font-size: 30px;
-    flex-wrap: wrap;
-}
-
-
-
-
-.sub-header{
-    padding:0;
-    display: inline-block;
-    font-size: 25px;
-    color: #91AAB4; 
-}
-.sub-header-project{
-    
-    padding:0;
-    display: inline-block;
-    font-size: 25px;
-    color: #91AAB4; 
-
-}
-
-.projects{
-    
-    font-size: 20px;
-    padding-bottom: 50px;
-}
-.projects-content{
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: repeat(2, minmax(1fr, 1fr));
-    grid-gap: 1rem;
-}
-
-.projects-content div{
-    justify-self: center;
-}
-.project-overview{
-    width: 50%;
+    font-size: 50px;
     text-align: center;
+    height: 80vh;
+}
+.sub-header{
+    font-size: 20px;
+    color:#697A9C;
 }
 
-
-.footer-content a{
-    margin-left: 10px;
+.projects-content{
+    margin-bottom: 20px;
+   display:grid;
+   grid-template-columns: repeat(2,1fr); 
 }
+.header-center{
+    text-align:center;
+}
+
+.project-overview{
+    justify-self: center;
+    width:50%;
+}
+
 
 .project-calculator img{
-    width: 250px;
-    height: 250px;
+    width: 20%;
+    height: 20%;
 }
+
 .todo-project img{
-    width: 450px;
-    height: 315px;
+    width: 50%;
+    height:50%
 }
-
-.header-center h3{
-    text-align: center;
-}
-
 
 footer{
-    height: 2.5em;   
-    
+    margin-top: 100px;
 }
-footer h3{
-    float: left;
-    width: 100%;
-    height: 100%;
-    
+
+.footer-content a{
+    margin-left: 15px;
 }
+
+
 @media(max-width: 600px){
-    
-    .header-menu{
-        visibility: hidden;
+    header a {
+        margin-left: 5px;
     }
-    .projects{
-        width: 100vh;
+    #new-main{
+        font-size: 40px;
+        height: 100vh;
         
     }
+    .projects-content{
+        display:block;
+        text-align: center;
+    }
+    .project-overview{
+        
+        width:100%;
+    }
+    .project-calculator img{
+        width: 50%;
+        height: 50%;
+    }
+    
+    .todo-project img{
+        width: 90%;
+        height:60%
+    }
+    header ul{
+        visibility: hidden;
+    }
+    /* header is going to be hidden for mobile */
 }
