@@ -1,11 +1,9 @@
-html{
-    
-}
-body{
+html,body{
+    font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding:0;
-    
 }
+
 header{
     height: 100%;
 }
@@ -14,6 +12,7 @@ header a{
     text-decoration: none;
     margin-left: 20px;
     color:#697A9C;
+    
 }
 
 header ul{
@@ -30,20 +29,37 @@ header ul li{
     margin-right: 20px;
 }
 
+.absolute-icon{
+    position: fixed;
+    top: 0;
+    right:0;
+    padding: 10px;
+    visibility: hidden;
+}
+
+
 #new-main{
+    display:flex;
     font-size: 50px;
     text-align: center;
-    height: 80vh;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
 }
 .sub-header{
     font-size: 20px;
     color:#697A9C;
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: normal;
+
 }
 
 .projects-content{
     margin-bottom: 20px;
    display:grid;
-   grid-template-columns: repeat(2,1fr); 
+   grid-template-columns: repeat(1,1fr); 
 }
 .header-center{
     text-align:center;
@@ -65,24 +81,107 @@ header ul li{
     height:50%
 }
 
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0072b1;
+    width: 100%;
+    height: 100vh;
+}
+.about-me-flex{
+    padding-top: 30px;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#thick-title{
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.about-skills{
+    color: white;
+}
+.about-skills h1{
+    font-size: 30px;
+    text-align: center;
+}
+.about-skills p{
+    
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
 footer{
-    margin-top: 100px;
+    padding: 10px;
 }
 
 .footer-content a{
     margin-left: 15px;
 }
 
+.about-me-section{
+    display: inline-block;
+    align-self: center;
+    margin-left: 20px;
+    width: 50%;
+}
 
+#selfie-photo{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    filter: brightness(120%);
+}
+.wrap-all-about-me{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 70px;
+    justify-content: center;
+}
+
+
+.hireMe-title{
+    width: 80%;
+    margin: auto;
+    font-size: 35px;
+}
+.hireMe-content{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+.hireMe-content h2{
+    text-align: center;
+}
+.hireMe-content p{
+    width: 55%;
+    margin:auto;
+
+}
 @media(max-width: 600px){
     header a {
         margin-left: 5px;
     }
     #new-main{
+        display: block;
         font-size: 40px;
-        height: 100vh;
-        
+        height: 90vh;
     }
+    
     .projects-content{
         display:block;
         text-align: center;
@@ -103,5 +202,38 @@ footer{
     header ul{
         visibility: hidden;
     }
-    /* header is going to be hidden for mobile */
+    .absolute-icon {
+        visibility: visible;
+    }
+    .about-me{
+        height: 100%;
+    }
+    .about-me-flex{
+        display: block;
+        text-align: center;
+    }
+    .about-me-flex p{
+        width: 100%;
+    }
+    .fas .fa-bars:hover{
+        color: black;
+    }
+    .wrap-all-about-me{
+        display: block;
+        width: 100%;
+    }
+    .about-me-section{
+        width: 100%;
+        margin: auto;
+    }
+    #selfie-photo{
+        width: 100%;
+        height: 100%;
+    }
+    .hireMe-title{
+        font-size: 20px;
+    }
+    .hireMe-content{
+        display: block;
+    }
 }
