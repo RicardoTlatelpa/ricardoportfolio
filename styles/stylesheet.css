@@ -224,8 +224,11 @@ footer{
         width: 30%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        font-size: 15px;
+        font-size: 18px;
         z-index: 1;
+    }
+    .header-menu a{
+        opacity: 0;
     }
    
     header ul a{
@@ -272,4 +275,15 @@ footer{
 
 .header-active{
     transform: translateX(0%); 
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0; 
+        transform: translateX(50px);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0px);
+    }
 }
