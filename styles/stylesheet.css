@@ -266,14 +266,17 @@ footer{
     }
     
     #selfie-photo{
-        height: 70%;
-        width: 70%;
+        height: 100%;
+        width: 100%;
         
     }
     .about-me-section{
         margin: 0;
-        width: 100%;
+        width: 60%;
+        margin: auto;
+        text-align: center;
     }
+    
     
     .hireMe-title{
         font-size: 20px;
