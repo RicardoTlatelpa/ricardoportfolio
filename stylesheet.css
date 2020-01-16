@@ -46,13 +46,10 @@ header ul li{
      background-color: white;
      margin: 4px;
 }
-
-
 #new-main{   
     font-size: 50px;
     text-align: center;
-    height: 100vh;
-    
+    height: 100vh; 
 }
 .sub-header{
     font-size: 20px;
@@ -65,7 +62,6 @@ header ul li{
     width: 30%;
     margin: auto;
 }
-
 .projects-content{
     margin-bottom: 20px;
    display:grid;
@@ -74,12 +70,10 @@ header ul li{
 .header-center{
     text-align:center;
 }
-
 .project-overview{
     justify-self: center;
     width:50%;
 }
-
 .learn-more-btn{
     text-decoration: none;
     color:#EB2188;
@@ -87,18 +81,13 @@ header ul li{
 .learn-more-btn:hover{
     font-size: 120%;
 }
-
-
 .project-calculator img{
     width: 20%;
     height: 20%;
 }
-
 .todo-project img{
     width: 40%; 
 }
-
-
 .about-me{
     display: flex;
     flex-direction: column;
@@ -115,7 +104,6 @@ header ul li{
     margin-right: auto;
     justify-content: space-between;
 }
-
 #thick-title{
     font-weight: 900;
     text-align: center;
@@ -124,7 +112,6 @@ header ul li{
     padding: 0;
     margin: 0;
 }
-
 .about-skills{
     color: #EB2188;
 }
@@ -143,13 +130,7 @@ footer{
     padding: 10px;
     width: 100%;
     background-color: white;
-    
 }
-/* footer::after{
-    content: '';
-    background-color: white;
-} */
-
 .footer-content a{
     margin-left: 15px;
 }
@@ -158,7 +139,6 @@ footer{
     display: block;
     color: #EB2188;
     width: 50%;
-    
     margin: auto;
 }
 
