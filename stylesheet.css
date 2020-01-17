@@ -65,10 +65,17 @@ header ul{
     text-align: center;
     font-weight: normal;
 }
+.section-header{
+    font-size: 30px;
+    text-align:center;
+}
 .vertical-line-down{
     border: .5px solid rgb(199, 199, 199);
     width: 30%;
     margin: auto;
+}
+.projects{
+    padding: 5rem 0;
 }
 .projects-content{
     margin-bottom: 20px;
@@ -102,7 +109,7 @@ header ul{
     align-items: center;
     justify-content: center;
     background-color: #080A52;
-    height: 100vh;
+    height: 70vh;
 }
 .about-me-flex{
     width: 90%;
@@ -115,10 +122,10 @@ header ul{
 #thick-title{
     font-weight: 900;
     text-align: center;
-    color: #EB2188;
-    font-size: 50px;
+    font-size: 40px;
     padding: 0;
     margin: 0;
+    color: #EB2188;
 }
 .about-skills{
     color: #EB2188;
@@ -176,8 +183,10 @@ header ul{
     padding-bottom: 40vh;
 }
 .tech-container{
-    text-align: center;
-    
+    text-align: center;   
+}
+.tech-container h2{
+    font-size: 30px;
 }
 .tech-skills{
     padding: 0;
@@ -212,6 +221,9 @@ footer{
 
 
 @media(max-width: 600px){
+    .face-wrap{
+        padding:0;
+    }
     .about-me-flex{
         width: 80%;
     }
@@ -295,6 +307,9 @@ footer{
     .tech-skills{
         width: 90%;
     }
+    .soft-skills{
+        height: 100vh;
+    }
 }
 @media(max-width: 1000px){
     .soft-skills{
@@ -318,6 +333,8 @@ footer{
         width: 80%;
     }
 }
+
+
 .header-active{
     transform: translateX(0%); 
 }
