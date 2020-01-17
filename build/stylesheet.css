@@ -197,7 +197,34 @@ header ul{
     width: 400px;
     margin: 0 auto;
 }
+.tech-stack{
+    width: 100%;
+    padding-top: 20vh;
+    padding-bottom: 40vh;
+}
+.tech-container{
+    text-align: center;
+    
+}
+.tech-skills{
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    width: 850px;
+    margin: 0 auto;
+}
 
+.tech-skills li{
+    border: 2px solid #EB2188;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.tech-skills li:hover{
+    background-color: #EB2188;
+    color: white;
+}
 
 
 footer{
@@ -209,28 +236,7 @@ footer{
     background-color: white;
 }
 
-@media(max-width: 1000px){
-    .soft-skills{
-        height: 100%;
-        width: 100%;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    .soft-skills #thick-title{
-        width: 100%;
-    }
-    .about-me-flex{
-        margin-top: 10px;
-        display: block;
-        text-align: center;
-    }
-    .about-skills{
-        margin-top: 10px;
-    }
-    .about-me-flex p{
-        width: 80%;
-    }
-}
+
 
 @media(max-width: 600px){
     .about-me-flex{
@@ -321,7 +327,33 @@ footer{
         width: 100%;
     }
 }
-
+@media(max-width: 770px){
+    .tech-skills{
+        width: 90%;
+    }
+}
+@media(max-width: 1000px){
+    .soft-skills{
+        height: 100%;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .soft-skills #thick-title{
+        width: 100%;
+    }
+    .about-me-flex{
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+    .about-skills{
+        margin-top: 10px;
+    }
+    .about-me-flex p{
+        width: 80%;
+    }
+}
 .header-active{
     -webkit-transform: translateX(0%);
             transform: translateX(0%); 
