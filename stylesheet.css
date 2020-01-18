@@ -119,9 +119,14 @@ header ul{
     flex: 1 1 100%;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+    background-color:var(--background-color-lighter);
 }
 .project a {
     align-self: flex-end;
+}
+.project h3{
+    border-bottom: 10px solid var(--background-color);
 }
 .project h3, p{
     width: 100%;
