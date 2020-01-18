@@ -19,7 +19,7 @@ html,body{
     position: relative;
     background-color: var(--background-color);
 }
-section{
+section p{
     line-height: 2;
 }
 header{
