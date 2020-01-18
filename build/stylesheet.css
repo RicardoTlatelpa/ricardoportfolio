@@ -129,24 +129,30 @@ header ul{
     -webkit-box-direction: normal;
             flex-direction: row;
     text-align: center; 
-    max-width: 700px;
-    margin: 0 auto;
+    margin: auto;
+    max-width: 600px;
+    -webkit-box-pack: start;
+            justify-content: flex-start;
 }
-.project{
-    margin: 20px;
-    padding: 20px;
-    display: -webkit-box;
+.project{    
+    display: -webkit-box;    
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 1 1 100%;
+    -webkit-box-flex: 1;
+            flex: 1 1 100%;
     -webkit-box-align: center;
             align-items: center;
     -webkit-box-pack: center;
             justify-content: center;
 }
+.project a {
+    align-self: flex-end;
+}
 .project h3, p{
     width: 100%;
+    align-self: flex-start;
 }
+
 
 
 .learn-more-btn{
