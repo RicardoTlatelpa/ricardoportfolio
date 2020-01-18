@@ -146,12 +146,14 @@ header ul{
             justify-content: center;
     margin: 20px;
     background-color:var(--background-color-lighter);
+    border: 3px solid var(--matching-text-color);
+    border-radius: 20px;
 }
 .project a {
     align-self: flex-end;
 }
 .project h3{
-    border-bottom: 10px solid var(--background-color);
+    border-bottom: 5px solid var(--background-color);
 }
 .project h3, p{
     width: 100%;
@@ -163,8 +165,10 @@ header ul{
 .learn-more-btn{
     text-decoration: none;
     color:var(--matching-text-color2);
-    border: 5px solid var(--matching-text-color2);
-    padding: 5px;
+    border: 2px solid var(--matching-text-color2);
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-bottom: 5px;
 }
 
 
