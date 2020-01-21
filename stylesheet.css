@@ -167,7 +167,7 @@ header ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1200px;
+    width: 1010px;
 }
 #thick-title{
     font-weight: 900;
