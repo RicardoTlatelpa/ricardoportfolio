@@ -110,7 +110,7 @@ header ul{
     flex-direction: row;
     text-align: center; 
     margin: auto;
-    max-width: 600px;
+    max-width: 750px;
     justify-content: flex-start;
 }
 .project{    
@@ -159,6 +159,7 @@ header ul{
     height: 100%;
     padding-top: 10em;
     padding-bottom: 10em;
+    text-align: center;
 }
 .about-me-flex{
     width: 90%;
@@ -166,7 +167,7 @@ header ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1000px;
+    width: 1200px;
 }
 #thick-title{
     font-weight: 900;
@@ -191,7 +192,7 @@ header ul{
 }
 .about-skills p{
     align-self: flex-end;
-    width: 90%;
+    width: 100%;
 }
 
 .footer-content a{
