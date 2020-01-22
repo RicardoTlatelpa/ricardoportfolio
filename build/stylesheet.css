@@ -43,7 +43,7 @@ header a{
 }
 
 header ul{
-    min-width: 250px;
+    min-width: 350px;
     list-style: none;
     display: -webkit-box;
     display: flex;
