@@ -30,7 +30,7 @@ header{
             flex-direction: row;
     -webkit-box-pack: justify;
             justify-content: space-between;
-    height: 8vh;
+    height: 60px;
     background-color: var(--background-color-darker);
     -webkit-box-align: center;
             align-items: center;
